@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversity in the UAE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="door" class="door" onclick="openDoor()">
+        <div class="door-text">Welcome to the Museum of Diversity</div>
+    </div>
+
+    <div id="exhibitions" class="hidden">
+        <h1>Diversity in the UAE</h1>
+        <div class="exhibition" onclick="showExhibition('cultural')">Cultural Diversity</div>
+        <div class="exhibition" onclick="showExhibition('language')">Linguistic Diversity</div>
+        <div class="exhibition" onclick="showExhibition('religion')">Religious Diversity</div>
+        <div class="exhibition" onclick="showExhibition('gender')">Gender Diversity</div>
+        <div class="exhibition" onclick="showExhibition('ethnic')">Ethnic Diversity</div>
+    </div>
+
+    <div id="exhibition-info" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
